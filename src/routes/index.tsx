@@ -3,7 +3,7 @@ import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
 import { Problem } from "@/components/site/Problem";
 import { Process } from "@/components/site/Process";
-import { Demos } from "@/components/site/Demos";
+
 import { Audience } from "@/components/site/Audience";
 import { Faq } from "@/components/site/Faq";
 import { Contact } from "@/components/site/Contact";
