@@ -1,18 +1,18 @@
 const steps = [
   {
     n: "01",
-    title: "Book en gratis gennemgang",
-    desc: "Vi gennemgår jeres nuværende hjemmeside og forstår jeres virksomhed.",
+    title: "Udfyld formularen",
+    desc: "Fortæl os om jeres virksomhed, så vi kan forstå jeres behov.",
   },
   {
     n: "02",
     title: "Vi laver et hjemmesideudkast",
-    desc: "På baggrund af jeres ønsker designer vi et konkret forslag.",
+    desc: "På baggrund af jeres oplysninger designer vi et konkret forslag.",
   },
   {
     n: "03",
     title: "Vi præsenterer det på et møde",
-    desc: "I ser hjemmesiden og beslutter, om I ønsker at gå videre.",
+    desc: "I ser udkastet og beslutter helt uforpligtende, om I vil gå videre.",
   },
 ];
 
