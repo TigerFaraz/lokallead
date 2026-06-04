@@ -37,7 +37,6 @@ function Index() {
         <Hero />
         <Problem />
         <Process />
-        <Demos />
         <Audience />
         <Faq />
         <Contact />
