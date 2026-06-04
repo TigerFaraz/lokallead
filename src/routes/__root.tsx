@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "LokalLead Website" },
+      { name: "description", content: "LokalLead webiste - genvurder logo, og tiløfj korrekte emails, telefonnumre etc." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "LokalLead Website" },
+      { property: "og:description", content: "LokalLead webiste - genvurder logo, og tiløfj korrekte emails, telefonnumre etc." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LokalLead Website" },
+      { name: "twitter:description", content: "LokalLead webiste - genvurder logo, og tiløfj korrekte emails, telefonnumre etc." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8c0215b6-3a63-42dc-a4aa-a9e2c4481064/id-preview-ff071d3c--22609f02-4e38-4f55-af49-cf9f612fb7c1.lovable.app-1780570060045.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8c0215b6-3a63-42dc-a4aa-a9e2c4481064/id-preview-ff071d3c--22609f02-4e38-4f55-af49-cf9f612fb7c1.lovable.app-1780570060045.png" },
     ],
     links: [
       {
