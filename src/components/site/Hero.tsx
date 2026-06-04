@@ -33,10 +33,10 @@ export function Hero() {
               Book en gratis gennemgang
             </a>
             <a
-              href="#demoer"
+              href="#proces"
               className="inline-flex h-12 items-center rounded-full border border-border bg-white px-6 text-sm font-medium text-[var(--navy)] transition-colors hover:border-[var(--navy)]"
             >
-              Se demoer
+              Sådan fungerer det
             </a>
           </div>
 
