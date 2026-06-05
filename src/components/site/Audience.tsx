@@ -15,7 +15,7 @@ const cards = [
 
 export function Audience() {
   return (
-    <section className="py-16 md:py-24">
+    <section className="pt-8 pb-16 md:pt-12 md:pb-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--green)]">
