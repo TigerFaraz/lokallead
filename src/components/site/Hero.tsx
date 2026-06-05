@@ -1,8 +1,8 @@
 import heroImg from "@/assets/hero-laptop.jpg";
 
 const points = [
-  "Gratis og uforpligtende gennemgang",
-  "Skræddersyet hjemmesideudkast",
+  "Gratis og uforpligtende udkast",
+  "Skræddersyet til jeres virksomhed",
   "Fokus på flere kundehenvendelser",
 ];
 
@@ -30,7 +30,7 @@ export function Hero() {
               href="#kontakt"
               className="inline-flex h-12 items-center rounded-full bg-[var(--navy)] px-6 text-sm font-medium text-white transition-transform hover:scale-[1.02]"
             >
-              Book en gratis gennemgang
+              Få et gratis udkast
             </a>
             <a
               href="#proces"

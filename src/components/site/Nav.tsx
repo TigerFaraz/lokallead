@@ -26,7 +26,7 @@ export function Nav() {
           href="#kontakt"
           className="inline-flex h-10 items-center rounded-full bg-[var(--navy)] px-5 text-sm font-medium text-white transition-transform hover:scale-[1.02]"
         >
-          Book gennemgang
+          Få gratis udkast
         </a>
       </div>
     </header>

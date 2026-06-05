@@ -1,9 +1,13 @@
 const fields = [
-  { name: "navn", label: "Navn", type: "text", required: true },
-  { name: "virksomhed", label: "Virksomhed", type: "text", required: true },
-  { name: "email", label: "Email", type: "email", required: true },
-  { name: "telefon", label: "Telefon", type: "tel", required: false },
+  { name: "firmanavn", label: "Firmanavn", type: "text", required: true },
   { name: "hjemmeside", label: "Hjemmeside", type: "url", required: false },
+  { name: "telefon", label: "Telefonnummer", type: "tel", required: true },
+  { name: "email", label: "Email", type: "email", required: true },
+];
+
+const textareas = [
+  { name: "services", label: "Hvilke services tilbyder I?", rows: 3 },
+  { name: "maal", label: "Hvad er jeres vigtigste mål med hjemmesiden?", rows: 3 },
 ];
 
 export function Contact() {
@@ -17,11 +21,11 @@ export function Contact() {
                 Kontakt
               </span>
               <h2 className="mt-4 font-display text-3xl leading-tight !text-white md:text-[40px]">
-                Lad os tage et kig på jeres hjemmeside
+                Få et gratis udkast til jeres nye hjemmeside
               </h2>
               <p className="mt-5 max-w-md text-[15px] leading-relaxed text-white/70">
-                Book en gratis gennemgang og få et konkret forslag til, hvordan jeres
-                hjemmeside kan forbedres.
+                Udfyld formularen, så laver vi et skræddersyet udkast til jeres
+                virksomhed og præsenterer det på et kort møde — helt uforpligtende.
               </p>
 
               <ul className="mt-8 space-y-3 text-sm text-white/80">
@@ -57,21 +61,24 @@ export function Contact() {
                   />
                 </label>
               ))}
-              <label className="block">
-                <span className="mb-1.5 block text-xs font-medium text-[var(--navy)]">
-                  Besked
-                </span>
-                <textarea
-                  name="besked"
-                  rows={4}
-                  className="w-full resize-none rounded-lg border border-border bg-white px-3.5 py-2.5 text-sm outline-none transition-colors focus:border-[var(--navy)]"
-                />
-              </label>
+              {textareas.map((t) => (
+                <label key={t.name} className="block">
+                  <span className="mb-1.5 block text-xs font-medium text-[var(--navy)]">
+                    {t.label}
+                  </span>
+                  <textarea
+                    name={t.name}
+                    rows={t.rows}
+                    required
+                    className="w-full resize-none rounded-lg border border-border bg-white px-3.5 py-2.5 text-sm outline-none transition-colors focus:border-[var(--navy)]"
+                  />
+                </label>
+              ))}
               <button
                 type="submit"
                 className="mt-2 inline-flex h-12 items-center justify-center rounded-full bg-[var(--green)] px-6 text-sm font-medium text-white transition-transform hover:scale-[1.01]"
               >
-                Book gratis gennemgang
+                Få mit gratis udkast
               </button>
             </form>
           </div>

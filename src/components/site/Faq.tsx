@@ -1,19 +1,19 @@
 const items = [
   {
-    q: "Koster den gratis gennemgang noget?",
-    a: "Nej. Gennemgangen er helt gratis og uforpligtende — I betaler først noget, hvis I vælger at gå videre.",
+    q: "Koster det noget at få et udkast?",
+    a: "Nej. Udkastet er helt gratis og uforpligtende — I betaler først noget, hvis I vælger at gå videre.",
   },
   {
     q: "Hvor lang tid tager det at få et udkast?",
-    a: "Typisk har vi et udkast klar inden for en uge, afhængigt af jeres ønsker og hvor hurtigt vi får materialet.",
+    a: "Typisk har vi et udkast klar inden for en uge, efter I har udfyldt formularen.",
   },
   {
     q: "Er jeg forpligtet til at købe?",
-    a: "Nej. I ser udkastet og beslutter selv, om I vil have hjemmesiden bygget. Der er ingen binding.",
+    a: "Nej. I ser udkastet på et møde og beslutter selv, om I vil have hjemmesiden bygget. Der er ingen binding.",
   },
   {
-    q: "Kan I hjælpe med tekst og billeder?",
-    a: "Ja. Vi hjælper med både tekst, billeder og struktur, så hjemmesiden står skarpt fra start.",
+    q: "Hvad bruger I oplysningerne fra formularen til?",
+    a: "Vi bruger dem til at designe et udkast, der passer til netop jeres virksomhed, services og mål.",
   },
   {
     q: "Hvad sker der hvis jeg kan lide udkastet?",
