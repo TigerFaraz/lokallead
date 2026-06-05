@@ -18,7 +18,7 @@ const steps = [
 
 export function Process() {
   return (
-    <section id="proces" className="py-24 md:py-32">
+    <section id="proces" className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--green)]">
