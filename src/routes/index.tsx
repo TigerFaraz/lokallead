@@ -38,8 +38,8 @@ function Index() {
         <Problem />
         <Process />
         <Audience />
-        <Faq />
         <Contact />
+        <Faq />
       </main>
       <Footer />
     </div>
