@@ -1,15 +1,15 @@
 const cards = [
   {
-    title: "Vinduespudsere",
-    desc: "En klar profil og nem kontakt giver flere henvendelser fra både private og erhverv.",
+    title: "Professionelt førstehåndsindtryk",
+    desc: "En moderne og overskuelig hjemmeside gør det nemmere for potentielle kunder at forstå, hvad I tilbyder – og tage det næste skridt.",
   },
   {
-    title: "Rengøringsfirmaer",
-    desc: "Et professionelt indtryk gør det lettere at vinde nye aftaler og faste kunder.",
+    title: "Flere kundehenvendelser",
+    desc: "En tydelig struktur, stærke budskaber og nem kontakt gør det lettere for besøgende at blive til konkrete henvendelser.",
   },
   {
-    title: "Anlægsgartnere",
-    desc: "Synlige billeder af jeres arbejde og en tydelig kontaktknap skaber tillid fra første klik.",
+    title: "Skabt til lokale virksomheder",
+    desc: "Uanset om I arbejder med private, erhverv eller begge dele, tilpasses hjemmesiden jeres virksomhed, ydelser og kunder.",
   },
 ];
 
@@ -22,7 +22,7 @@ export function Audience() {
             Hvem hjælper vi?
           </span>
           <h2 className="mt-4 font-display text-3xl leading-tight md:text-[40px]">
-            Lavet til lokale fagfolk
+            Lavet til lokale servicevirksomheder
           </h2>
         </div>
 

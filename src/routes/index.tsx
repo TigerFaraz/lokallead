@@ -16,13 +16,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "LokalLead hjælper vinduespudsere, rengøringsfirmaer og anlægsgartnere med moderne hjemmesider. Book en gratis gennemgang og få et skræddersyet udkast.",
+          "LokalLead hjælper lokale servicevirksomheder med moderne hjemmesider. Få et gratis og uforpligtende udkast til jeres nye hjemmeside.",
       },
       { property: "og:title", content: "LokalLead — Hjemmesider der skaber kundehenvendelser" },
       {
         property: "og:description",
         content:
-          "Moderne hjemmesider til lokale servicevirksomheder. Gratis og uforpligtende gennemgang.",
+          "Moderne hjemmesider til lokale servicevirksomheder. Gratis og uforpligtende udkast.",
       },
     ],
   }),
