@@ -3,7 +3,7 @@ import { submitContactForm } from "@/lib/contact.functions";
 
 const fields = [
   { name: "firmanavn", label: "Virksomhedens navn", type: "text", required: true },
-  { name: "hjemmeside", label: "Nuværende hjemmeside", type: "url", required: false },
+  { name: "hjemmeside", label: "Nuværende hjemmeside", type: "text", required: false },
   { name: "telefon", label: "Telefonnummer", type: "tel", required: true },
   { name: "email", label: "Email", type: "email", required: true },
 ];
