@@ -15,7 +15,7 @@ export function Footer() {
             info.lokallead@gmail.com
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/company/lokal-lead/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-[var(--navy)]"
