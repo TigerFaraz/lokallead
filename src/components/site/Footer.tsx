@@ -11,8 +11,8 @@ export function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-2 text-sm text-muted-foreground md:items-end">
-          <a href="mailto:hej@lokallead.dk" className="hover:text-[var(--navy)]">
-            hej@lokallead.dk
+          <a href="mailto:info.lokallead@gmail.com" className="hover:text-[var(--navy)]">
+            info.lokallead@gmail.com
           </a>
           <a
             href="https://www.linkedin.com"
