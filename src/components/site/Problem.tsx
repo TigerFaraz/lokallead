@@ -38,7 +38,7 @@ export function Problem() {
         </div>
 
         <p className="mt-14 max-w-2xl font-display text-xl italic text-[var(--navy)] md:text-2xl">
-          “Det betyder ofte færre kundehenvendelser end nødvendigt.”
+          “Det kan betyde, at potentielle kunder vælger en konkurrent i stedet.”
         </p>
       </div>
     </section>

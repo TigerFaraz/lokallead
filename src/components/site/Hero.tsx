@@ -21,8 +21,8 @@ export function Hero() {
             <span className="italic text-[var(--green)]">kundehenvendelser</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            Vi hjælper vinduespudsere, rengøringsfirmaer og anlægsgartnere med
-            moderne hjemmesider, der gør det nemmere for nye kunder at vælge jer.
+            Vi hjælper lokale servicevirksomheder med moderne hjemmesider, der
+            gør det nemmere for nye kunder at finde jer, forstå jeres tilbud og tage kontakt.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
