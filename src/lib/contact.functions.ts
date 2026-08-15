@@ -15,18 +15,40 @@ export const submitContactForm = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
 
-    const { error } = await supabaseAdmin.from("contact_submissions").insert({
-      firmanavn: data.firmanavn,
-      hjemmeside: data.hjemmeside || null,
-      telefon: data.telefon,
-      email: data.email,
-      services: data.services,
-      maal: data.maal,
-    });
+    const { data: inserted, error } = await supabaseAdmin
+      .from("contact_submissions")
+      .insert({
+        firmanavn: data.firmanavn,
+        hjemmeside: data.hjemmeside || null,
+        telefon: data.telefon,
+        email: data.email,
+        services: data.services,
+        maal: data.maal,
+      })
+      .select("id")
+      .single();
 
     if (error) {
       console.error("[submitContactForm] insert error:", error);
       throw new Error("Kunne ikke gemme henvendelsen. Prøv igen om lidt.");
+    }
+
+    try {
+      const { sendTemplateEmail } = await import("@/lib/email-templates/send-email");
+      await sendTemplateEmail("contact-notification", "info.lokallead@gmail.com", {
+        templateData: {
+          firmanavn: data.firmanavn,
+          hjemmeside: data.hjemmeside || "",
+          telefon: data.telefon,
+          email: data.email,
+          services: data.services,
+          maal: data.maal,
+        },
+        idempotencyKey: `contact-notification-${inserted?.id ?? crypto.randomUUID()}`,
+        replyTo: data.email,
+      });
+    } catch (mailError) {
+      console.error("[submitContactForm] email error:", mailError);
     }
 
     return { success: true };
