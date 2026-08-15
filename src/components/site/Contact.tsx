@@ -35,7 +35,7 @@ export function Contact() {
     try {
       await submitContactForm({ data });
       setStatus("success");
-      e.currentTarget.reset();
+      // Formularen skiftes ud med bekræftelseskortet, så reset er ikke nødvendig.
     } catch (err) {
       setStatus("error");
       setErrorMessage(err instanceof Error ? err.message : "Noget gik galt. Prøv igen.");
