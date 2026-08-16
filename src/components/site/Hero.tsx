@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-website-mockup.png";
+import heroImg from "@/assets/hero-laptop.jpg";
 
 const points = [
   "Gratis og uforpligtende udkast",
