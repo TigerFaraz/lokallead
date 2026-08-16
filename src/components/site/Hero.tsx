@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-laptop.jpg";
+import heroImg from "@/assets/hero-website-mockup.png";
 
 const points = [
   "Gratis og uforpligtende udkast",
@@ -58,7 +58,7 @@ export function Hero() {
           <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-[var(--navy-soft)]/60 blur-2xl" />
           <img
             src={heroImg}
-            alt="Eksempel på en moderne hjemmeside vist på en bærbar computer"
+            alt="Moderne hjemmeside-mockup med browservindue og flydende UI-elementer"
             width={1600}
             height={1200}
             className="w-full rounded-2xl"
