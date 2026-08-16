@@ -66,7 +66,7 @@ export function Contact() {
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-1.5 w-1.5 rounded-full bg-[var(--green)]" />
-                  Svar inden for 1 hverdag
+                  Svar inden for 3 dage
                 </li>
               </ul>
             </div>
